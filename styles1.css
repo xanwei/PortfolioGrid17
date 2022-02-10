@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
-
 @media (min-width: 320px) {}
 
 body {
@@ -109,8 +108,8 @@ main {
 .widget {
     border-radius: 25px;
     object-fit: cover;
-    width: 300px;
-    height: 330px;
+    width: 230px;
+    height: 280px;
 }
 
 .lees_button {
