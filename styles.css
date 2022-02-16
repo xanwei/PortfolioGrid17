@@ -1,157 +1,265 @@
-<!DOCTYPE .html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="chrome" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Testimonial_PortfolioGrid</title>
-  </head>
-  <body>
-    <section>
-    <div class="testimonialbox">
-      <div class="testimonialcardbody">
-        <header>
-          <article class="card-text1">
-            <p>
-              Winc Academy! Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            </p>
-          </article>
-          <label
-            ><img class="testimonial_img"
-              width=""
-              height="280px"
-              src="portraetsandra.jpg"
-            />
-          </label>
-          <span class="dot"></span>
-          <article class="card-tekst2body">
-            <p class="card-tekst2body">XANDRA WEINZ</p>
-            <p class="card-tekst3body">ExampleWebsite</p>
-          </article>
-          
-        </header>
-     
-      </div>
-    </div>
-  </section>
-<div>
-      <main>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-        <widget>
-          <div class="widget-container">
-            <div class="figure">
-              <img width="230px" heigth="280px" src="portraetsandra.jpg" />
-              <div class="content1">
-                <a href="https://www.xandraweinz.nl" target="_blank"
-                  >Lees verder</a
-                >
-              </div>
-            </div>
-          </div>
-        </widget>
-      </main>
-      </div>
-      
-      .fa-laptop-code::before {
-        content: "\f5fc";
-    }
-    .fa-twitter::before {
-        content: "\f099";
-    }
-    .fa-linkedin-in::before {
-        content: "\f0e1";
-    }
-    .fa-facebook-f::before {
-        content: "\f39e";
-    }
-    .fa-github::before {
-        content: "\f09b";
-    }
-    </div>
-  </body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@media (min-width: 320px) 
+
+body {
+    box-sizing: border-box;
+    /*background-color: #aaabce; */
+}
+.testimonialbox {
+    background-color: #c3cfe2;
+}
+.testimonialcardbody {
+    background-image: linear-gradient(180deg, #fff 100%, #c3cfe2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 50px;
+    max-width: 1500px;
+}
+div.testimonialcardbody, section{
+    background-color: #aaabce;
+}
+
+header {
+    border: 0em;
+    border-radius: 25px;
+    width: 340px;
+    height: 650px;
+    margin: 35px;
+    box-shadow: 45px 45px 60px rgb(109, 106, 106);
+}
+
+p {
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+.card-tekst1body {
+    background-color: #fff;
+}
+
+.card-tekst2body {
+
+    color: #fff;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 35px rgb(109, 106, 106);
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.card-tekst3body {
+    color: #aaabce;
+    padding-top: 5px;
+    padding-bottom: 55px;
+    box-shadow: 35px rgb(109, 106, 106);
+}
+
+.card-tekst2body, .card-tekst3body {
+    background-color: #686de0;
+    text-align: center;
+}
+
+.label{ 
+    150px;
+}
+
+.dot {
+    height: 115px;
+    width: 115px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 5px;
+    display: inline-block;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: -35px;
+}
+img.testimonial_img {
+    height: 114px;
+    width: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: -201px;
+}
 
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    grid-template-rows: 280px;
+    column-gap: 30px;
+    row-gap: 30px;
+    max-width: 80vh;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main,.div widget-container {
+    grid-template-columns: 260px 260px 260px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c3cfe2;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.widget{
+    grid-template-columns: 240px 240px 240px;
+}
 
 
+img {
+    border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+    margin: 60px;
+}
+
+.figure-item:hover .figure {
+    transform: scale(1);
+    opacity: 1
+}
+
+.button1 {
+    border: solid;
+    display: inline-block;
+    position: relative;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: -150px;
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr fr;
+        justify-content: space-around;
+        grid-template-rows: 280px;
+        column-gap: 20px;
+        row-gap: 20px;
+        max-width: 80vh;
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        grid-template-rows: 280px;
+        column-gap: 20px;
+        row-gap: 20px;
+        max-width: 80vh;
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media (min-width: 320px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-around;
+        grid-template-rows: 280px;
+        column-gap: 20px;
+        row-gap: 20px;
+        max-width: 80vh;
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+.social-media.blog {
+    background-color: #e17b77;
+}
+
+.social-media.facebook {
+    background-color: #3b5998;
+}
+
+.social-media.twitter {
+    background-color: #00aced;
+}
+
+.social-media.github {
+    background-color: #333;
+}
+
+.social-media.linkedin {
+    background-color: #007bb6;
+}
+/*
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	box-sizing: border-box;
+}
+/*
+.figure{
+	border-radius: 10px;
+	margin: 20px 1.6%;
+	overflow: hidden;
+	position: relative;
+	width: 30%;
+}
+
+.content1 {
+	object-fit: cover;
+	transition: transform 200ms ease-in;
+	height: 100%;  	
+	width: 100%;
+}
+
+.content1:hover img {
+	transform: scale(1.1);
+}
+
+.widget-content {
+	background-color: #293347;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 200ms ease-in-out;
+	width: 100%;
+	height: 100%;
+}
+
+.widget-content .content1 {
+	opacity: 1;
+}
+
+/* work in progress/*
