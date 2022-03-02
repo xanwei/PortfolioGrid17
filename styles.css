@@ -170,7 +170,7 @@ img {
 
 }
 
-.portfolio-container {
+.grid-container {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 1120px;
